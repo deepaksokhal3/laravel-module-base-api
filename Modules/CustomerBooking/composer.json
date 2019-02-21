@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/customerbooking",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CustomerBooking\\Providers\\CustomerBookingServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CustomerBooking\\": ""
+        }
+    }
+}

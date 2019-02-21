@@ -1,0 +1,16 @@
+{
+    "name": "CustomerBooking",
+    "alias": "customerbooking",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CustomerBooking\\Providers\\CustomerBookingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

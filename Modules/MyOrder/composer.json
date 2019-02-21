@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/myorder",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MyOrder\\Providers\\MyOrderServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MyOrder\\": ""
+        }
+    }
+}
